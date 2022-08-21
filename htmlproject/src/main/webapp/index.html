@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>basic form</title>
+</head>
+<body>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br> <br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>     
+    <br>
+      
+    <h4>Date Of Birth:
+      <input type="datetime-local" id="Test_DatetimeLocal">
+    </h4>
+    <br>
+ Password
+  <input type="password" name="password" autocomplete="current-password" required="" id="id_password">
+  <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+<br>
+  <input action="/" type="submit" value="Submit">
+</form> 
+</body>
+</html>
