@@ -77,8 +77,8 @@ class ProjectTest {
 		 * assertThat(c).hasFieldOrPropertyWithValue("gender", "Male");
 		 */
 
-		ProductEntity p = productRepository.save(new ProductEntity(33, "p1", 11, 1000, c));
-		assertThat(p).hasFieldOrPropertyWithValue("productId",33);
+		ProductEntity p = productRepository.save(new ProductEntity(2, "p1", 11, 1000, c));
+		assertThat(p).hasFieldOrPropertyWithValue("productId", 2);
 		assertThat(p).hasFieldOrPropertyWithValue("productName", "p1");
 		assertThat(p).hasFieldOrPropertyWithValue("qty", 11);
 		assertThat(p).hasFieldOrPropertyWithValue("price", 1000);
